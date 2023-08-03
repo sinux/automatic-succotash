@@ -1,4 +1,4 @@
-#include <myproject/sample_library.hpp>
+#include <automatic_succotash/sample_library.hpp>
 
 int factorial(int input) noexcept
 {

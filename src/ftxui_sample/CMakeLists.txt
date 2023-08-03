@@ -2,8 +2,8 @@ add_executable(intro main.cpp)
 
 target_link_libraries(
   intro
-  PRIVATE myproject::myproject_options
-          myproject::myproject_warnings)
+  PRIVATE automatic_succotash::automatic_succotash_options
+          automatic_succotash::automatic_succotash_warnings)
 
 target_link_system_libraries(
   intro
